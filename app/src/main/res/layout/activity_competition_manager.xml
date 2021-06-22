@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompetitionManager">
+
+    <Button
+        android:id="@+id/btnToLoadCompetition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="toLoadCompetition"
+        android:text="Choose another competition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnToFixturesManager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:onClick="toFixturesManager"
+        android:text="Fixtures"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableLayout
+        android:layout_width="357dp"
+        android:layout_height="412dp"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254">
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="Position" />
+
+            <TextView
+
+                android:padding="2dip"
+                android:text="Team" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="Played" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="Wins" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="Draws" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="Losts" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="Points" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pos1"
+                android:padding="3dip" />
+
+            <TextView
+
+                android:id="@+id/team1"
+                android:padding="2dip" />
+
+            <TextView
+                android:id="@+id/playeds1"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/win1"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/draw1"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/lose1"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/pts1"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pos2"
+                android:padding="3dip" />
+
+            <TextView
+
+                android:id="@+id/team2"
+                android:padding="2dip" />
+
+            <TextView
+                android:id="@+id/playeds2"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/win2"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/draw2"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/lose2"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/pts2"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pos3"
+                android:padding="3dip" />
+
+            <TextView
+
+                android:id="@+id/team3"
+                android:padding="2dip" />
+
+            <TextView
+                android:id="@+id/playeds3"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/win3"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/draw3"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/lose3"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/pts3"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pos4"
+                android:padding="3dip" />
+
+            <TextView
+
+                android:id="@+id/team4"
+                android:padding="2dip" />
+
+            <TextView
+                android:id="@+id/playeds4"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/win4"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/draw4"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/lose4"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/pts4"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pos5"
+                android:padding="3dip" />
+
+            <TextView
+
+                android:id="@+id/team5"
+                android:padding="2dip" />
+
+            <TextView
+                android:id="@+id/playeds5"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/win5"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/draw5"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/lose5"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/pts5"
+                android:padding="3dip" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

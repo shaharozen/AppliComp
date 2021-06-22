@@ -7,48 +7,42 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/toLogIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="toLogIn"
-        android:text="Button"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="105dp" />
+        android:text="Change account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/toCreateCompetition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="toParticipateList"
-        android:text="Button"
-        tools:layout_editor_absoluteX="266dp"
-        tools:layout_editor_absoluteY="228dp" />
+        android:layout_marginEnd="24dp"
+        android:onClick="toCreateCompetition"
+        android:text="Create Competition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/toLoadCompetition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="toSettings"
-        android:text="Button"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="88dp" />
-
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="toWatchList"
-        android:text="Button"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="262dp" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="toManageList"
-        android:text="Button"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="554dp" />
+        android:onClick="toLoadCompetition"
+        android:text="Load Competition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toCreateCompetition"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
